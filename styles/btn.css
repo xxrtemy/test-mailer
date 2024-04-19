@@ -1,0 +1,37 @@
+.btn{
+    width: 235px;
+    height: 70px;
+    color: white;
+    font-size: 20px;
+    background-color: #ff0000;
+    border-radius: 6px;
+    box-shadow: 2px 2px 1px #B70000;
+}
+.form-btn{
+    padding: 28px 53px;
+    border-radius: 50px;
+    color: white;
+    background: linear-gradient(173.7deg, #FF1B88 4.27%, #FF1B88 94.36%),
+        linear-gradient(173.7deg, #FF409B 4.27%, #F91381 94.36%) !important;
+    box-shadow: 0px 5px 0px 0px rgba(214, 6, 105, 1) !important;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+}
+
+@media (width < 1024px) {
+    .form-btn{
+        padding: 22px 46px;
+        font-size: 13px;
+        width: 100%;
+        line-height: 18px;
+    }
+}
+@media (width < 700px) {
+    .form-btn{
+        padding: 17px 27px;
+        font-size: 13px;
+        line-height: 18px;
+    }
+}

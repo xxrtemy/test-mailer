@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/btn.css">
+    <link rel="stylesheet" href="./styles/popup.css">
+
+
+    <script defer src="./js/popup.js"></script>
+    <script defer src="./js/mask.js"></script>
+    <script defer src="./js/validation.js"></script>
+</head>
+<body>
+    <div class="container">
+        <button class="btn">
+            Кликни
+        </button>
+    </div>
+    <div class="modal">
+        <div class="modal-overlay">
+            <div class="modal-container">
+                <div class="modal-content"> 
+                    <h1 class="modal-title">
+                        <span>Дарим скидку 200 рублей</span> <br> на первый визит до 7 апреля
+                    </h1>
+                    <ul class="modal-list">
+                        <li class="list-item">А также:</li>
+                        <li class="list-item">
+                            <span>участие в розыгрыше SPA для двоих;</span>
+                        </li>
+                        <li class="list-item">
+                            <span>программу лояльности с экономией до 10%;</span>
+                        </li>
+                        <li class="list-item">
+                            <span>беспроигрышную лотерею в студии с бесплатными процедурами.</span>
+                        </li>
+                    </ul>
+                    <form action="#" class="modal-form">
+                        <div class="form-phone">
+                            <label>Введи телефон для получения подарка:</label>
+                            <input class="phone-input _required" type="tel" placeholder="+7 (000) 000-00-00" name="phone" id="phone">
+                        </div>
+                        <input class="form-btn" type="submit" value="Получить купон на скидку">
+                        <div class="form-check">
+                            <input type="checkbox" class="_required _checkbox" name="checkbox">
+                            <label>Я даю согласие на обработку персональных данных</label>
+                        </div>
+                    </form>
+                </div>
+                <button class="modal-cross"></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
